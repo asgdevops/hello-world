@@ -31,4 +31,4 @@ int main() {
   ```
 
 # :books: References
-- :link: []()
+- :link: [How to Write and Run a C Program in Linux](https://vitux.com/how-to-write-and-run-a-c-program-in-linux/)
