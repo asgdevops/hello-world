@@ -11,7 +11,7 @@ CMD ["/usr/games/cowsay", "Hello, Wonderful World!"]
 ```
 
 ## :whale: `hello.yml` docker compose file.
-```docker
+```yaml
 version: "3.9"
 
 services:
@@ -29,10 +29,19 @@ services:
 
 ## :arrow_forward: Start the application
 ```docker
-docker compose -f hello.dockerfile up
+docker compose -f hello.yml up
 ```
 
 ## :stop_button: Stop the application
 ```docker
-docker compose -f hello.dockerfile down
+docker compose -f hello.yml down
 ```
+
+## :eject_button: Drop image 
+```docker
+docker rmi hello:latest
+```
+
+# :books: References
+- :link: [Docker: Diferencia entre ENTRYPOINT y CMD](https://programacionymas.com/blog/docker-diferencia-entrypoint-cmd)
+- :link: [Personalizar nuestra terminal con Screenfetch en linux](https://geekland.eu/personalizar-terminal-con-screenfetch/)
