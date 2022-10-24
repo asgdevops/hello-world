@@ -7,8 +7,7 @@ This is a script to display **"Hello Wonderful World!"** in **BASH** programming
 echo "Hello, Wonderful World!";
 ```
 
-- :link: [hello-world.sh](hello-world.sh)
-
+:link: [hello-world.sh](hello-world.sh)
 
 ## :arrow_forward: Execute the script
 - Grant execution privileges
@@ -20,3 +19,5 @@ echo "Hello, Wonderful World!";
   ```bash
   ./hello-world.sh
   ```
+
+# :books: References
