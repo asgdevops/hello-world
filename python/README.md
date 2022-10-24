@@ -1,18 +1,31 @@
 # :notebook: Hello Wonderful World! > Python
 This is a script to display **"Hello Wonderful World!"** in **Python** programming language.
 
-## :snake: Installing Python on Ubuntu 22.04
-```bash
-sudo apt update -y && sudo apt upgrade -y
-sudo apt install -y software-properties-common
-sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt install python3.10
-sudo ln -s /usr/bin/python3 /usr/bin/python
-python --version
+## :snake: Install Python on Ubuntu 22.04
 
-sudo apt install python3-pip
-pip3 --version
-```
+- Install Python 3.10
+
+  ```bash
+  sudo apt update -y && sudo apt upgrade -y
+  sudo apt install -y software-properties-common
+  sudo add-apt-repository ppa:deadsnakes/ppa
+  sudo apt install python3.10
+  ```
+
+- Update the python system symlink
+
+  ```bash
+  sudo ln -s /usr/bin/python3 /usr/bin/python
+  python --version
+  ```
+
+- Install pip3 
+
+  ```
+  sudo apt install python3-pip
+  pip3 --version
+  ```
+
 ## :page_facing_up: Script
 ```go
 print ("Hello Wonderful World!")
@@ -22,6 +35,7 @@ print ("Hello Wonderful World!")
 
 
 ## :arrow_forward: Execute the script
+
 ```bash
 python3 hello-world.py
 ```
