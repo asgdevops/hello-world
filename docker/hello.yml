@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  hello:
+    build:
+      context: .
+      dockerfile: "hello.dockerfile"
+    container_name: "hello"
+    image: "hello:latest"

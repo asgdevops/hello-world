@@ -1,4 +1,4 @@
-# :notebook: Hello Wonderful World! > Go script
+# :notebook: Hello Wonderful World! > Go
 This is a testing script to display **"Hello Wonderful World!"** in **Go** programming language.
 
 ## :beaver: Installing Go on Ubuntu 22.04

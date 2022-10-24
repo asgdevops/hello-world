@@ -1,4 +1,4 @@
-# :notebook: Hello Wonderful World! > Python script
+# :notebook: Hello Wonderful World! > Python
 This is a script to display **"Hello Wonderful World!"** in **Python** programming language.
 
 ## :snake: Installing Python on Ubuntu 22.04
@@ -22,10 +22,9 @@ print ("Hello Wonderful World!")
 
 
 ## :arrow_forward: Execute the script
-- Runtime execution
-  ```bash
-  python3 hello-world.py
-  ```
+```bash
+python3 hello-world.py
+```
 
 # :books: References
 - :link: [Python Downloads](https://www.python.org/downloads/)
