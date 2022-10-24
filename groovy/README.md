@@ -4,17 +4,20 @@ This is a script to display **"Hello Wonderful World!"** in **Groovy** programmi
 ## :fountain: Install Groovy on Ubuntu 22.04
 
 - Upgrade your system
+  
   ```bash
   sudo apt update -y && sudo apt -y upgrade
   ```
 
 - Install Java SDK
+  
   ```bash
   sudo apt install -y default-jdk unzip zip
   java -version
   ```
 
 - Download and Run Groovy Installer Script
+  
   ```bash
   curl -s get.sdkman.io | bash
   source "/home/$USER/.sdkman/bin/sdkman-init.sh"
@@ -23,11 +26,13 @@ This is a script to display **"Hello Wonderful World!"** in **Groovy** programmi
   ```
 
 - Groovy workstation
+  
   ```bash
   groovysh
   ```
 
 ## :page_facing_up: Script
+
 ```groovy
 println "Hello Wonderful World!"
 ```
@@ -36,6 +41,7 @@ println "Hello Wonderful World!"
 
 
 ## :arrow_forward: Execute the script
+
 ```bash
 groovy hello-world.groovy
 ```
