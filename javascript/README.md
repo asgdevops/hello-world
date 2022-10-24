@@ -3,6 +3,7 @@ This is a script to display **"Hello Wonderful World!"** in **Javascript** progr
 
 ## :page_facing_up: Script
 - `hello-world.js`
+
   ```javascript
   alert("Hello, Wonderful  World!");
   console.log('Hello Wonderful World!');
@@ -10,6 +11,7 @@ This is a script to display **"Hello Wonderful World!"** in **Javascript** progr
   ```
 
 - `hello-world.html`
+
   ```html
   <!DOCTYPE HTML>
   <html>
@@ -24,6 +26,7 @@ This is a script to display **"Hello Wonderful World!"** in **Javascript** progr
 
 
 ## :arrow_forward: Execute the script
+
 ```bash
 google-chrome hello-world.html
 ```
