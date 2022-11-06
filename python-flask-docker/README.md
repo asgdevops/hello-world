@@ -56,14 +56,18 @@ docker container run -p 5000:5000 python-flask-docker
 |--|--|--|
 |[app.py](app.py)|Main Flask application.| Invokes Flask framework.|
 |[rest.py](rest.py)|Rest API|Gives a response according to the [decorator route](https://flask.palletsprojects.com/en/2.2.x/patterns/viewdecorators/)|
-|[app.py](app.py)|Main Flask application|
-
-- :link: [hello.dockerfile](hello.dockerfile)
-- :link: [hello.yml](hello.yml)
-
+|[Dockerile](Dockerfile)|Dockerfile|Builds **python-flask-docker** image|
+|[requirements.txt](requirements.txt)|Requirements Python file|Takes the packages Python needs to install in order to run the application|
+|[start.sh](start.sh)|BASH script to start the docker container|Starts the python-flask-docker container|
 
 ## :arrow_forward: Start the application
-- Open a terminal and run the script below
+- Grant execution permissions to `start.sh`
+
+  ```bash
+  chmod +x start.sh
+  ```
+
+- Run the script below
 
   ```bash
   ./start.sh
@@ -75,7 +79,7 @@ docker container run -p 5000:5000 python-flask-docker
 
 ## :stop_button: Stop the application
 ```bash
-CTRL + C
+CTRL + C # or close the terminal
 ```
 
 # :books: References
