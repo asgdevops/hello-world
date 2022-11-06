@@ -54,7 +54,7 @@ docker container run -p 5000:5000 python-flask-docker
 
 |Script name| Description|Comments|
 |--|--|--|
-|[app.py](app.py)|Main Flask application.| Invokes Flask framework.|
+|[app.py](app.py)|Main Flask application|Creates an instance of **Flask** class|
 |[rest.py](rest.py)|Rest API|Gives a response according to the [decorator route](https://flask.palletsprojects.com/en/2.2.x/patterns/viewdecorators/)|
 |[Dockerile](Dockerfile)|Dockerfile|Builds **python-flask-docker** image|
 |[requirements.txt](requirements.txt)|Requirements Python file|Takes the packages Python needs to install in order to run the application|
