@@ -1,0 +1,15 @@
+pipeline {
+  agent any
+  stages {
+    stage ("version") {
+      steps {
+        sh 'python3 --version'
+      }
+    }
+    stage("Hello-World") {
+      steps {
+        sh 'python3 hello-world.py'
+      }
+    }
+  }
+}
