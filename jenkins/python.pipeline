@@ -8,7 +8,7 @@ pipeline {
     }
     stage("Hello-World") {
       steps {
-        sh 'python3 hello_world.py'
+        sh 'python3 https://github.com/asgdevops/hello-world/blob/ed57c6d9ab90c779217372ce9ec9c607b2bcf21d/python/hello-world.py'
       }
     }
   }
